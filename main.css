@@ -1,9 +1,10 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'open' sans-serif;
+  font-family: "open sans", sans-serif;
   font-size: 100%;
-  /*text-align: center;*/ }
+  /*text-align: center;*/
+  border-radius: 10px; }
 
 .container {
   width: 93%;
@@ -16,4 +17,140 @@ header {
   background-image: url("images/header.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: 'open sans', sans-serif; }
+  font-family: "open sans", sans-serif; }
+
+nav {
+  height: 200px;
+  line-height: 85px; }
+
+.headline {
+  font-size: 71px;
+  text-align: inline-block; }
+
+.left {
+  float: left;
+  width: 90px;
+  height: 71px; }
+
+.content {
+  height: 806px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  float: left; }
+
+.headerleft {
+  float: left;
+  display: inline-block; }
+
+.headerright {
+  float: right;
+  font-family: "Oswald", sans-serif;
+  margin-right: 83px;
+  font-size: 1.6em; }
+
+.logo {
+  text-align: center; }
+  .logo img {
+    margin-left: 120px; }
+
+.logotext {
+  font-size: 1.8em;
+  display: inline-block; }
+
+.texttext {
+  float: left; }
+
+blockquote {
+  font-size: 174%; }
+
+h1 {
+  margin: 0;
+  font-family: "open sans", sans-serif;
+  color: white;
+  width: 98%;
+  display: block;
+  font-size: 6em; }
+
+h2 {
+  color: black;
+  font-size: 1.5em;
+  display: block;
+  margin-top: 0px;
+  font-family: "Oswald", sans-serif;
+  width: 100%; }
+
+section {
+  float: left;
+  width: 60%;
+  margin-left: 200px; }
+
+.text {
+  width: 530px; }
+
+.button {
+  height: 100px;
+  /*background: gray;*/ }
+
+.avatar {
+  margin-top: -120px;
+  width: 122px; }
+
+aside {
+  float: right;
+  width: 25%;
+  margin-top: 12%; }
+
+.picture {
+  margin-top: 41px; }
+
+.footer {
+  height: 380px;
+  font-family: "Oswald", sans-serif;
+  width: 1150px;
+  background-color: blue; }
+
+.footerhead {
+  font-size: 46px;
+  color: black;
+  display: inline-block;
+  text-align: center;
+  width: 101%; }
+
+.image1 {
+  margin-left: 70px;
+  width: 325px; }
+
+.image2 {
+  height: 379px;
+  width: 248px;
+  margin-top: -380px;
+  margin-left: 395px; }
+
+.image3 {
+  float: right;
+  height: 328px;
+  width: 325px;
+  padding-right: 395px;
+  margin-top: -380px; }
+
+.image4 {
+  float: right;
+  height: 328px;
+  width: 395px;
+  margin-top: -380px; }
+
+.bottomfooter {
+  background: gray; }
+
+.leftfooter {
+  float: left;
+  font-size: 15px;
+  margin-left: 120px;
+  font-size: 15px; }
+
+.rightfooter {
+  float: right;
+  font-size: 15px;
+  margin-top: 28px;
+  margin-right: 170px; }
